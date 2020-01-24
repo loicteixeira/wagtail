@@ -510,6 +510,9 @@ def register_core_features(features):
         },
         'to_database_format': {
             'style_map': {'BOLD': 'b'}
+        },
+        'to_frontend_format': {
+            'style_map': {'BOLD': 'strong'}
         }
     })
     features.register_editor_plugin(
@@ -526,6 +529,9 @@ def register_core_features(features):
         },
         'to_database_format': {
             'style_map': {'ITALIC': 'i'}
+        },
+        'to_frontend_format': {
+            'style_map': {'ITALIC': 'em'}
         }
     })
 
